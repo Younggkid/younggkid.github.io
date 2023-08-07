@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-04-01 16:11:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I joined AI4LIFE Group at [Harvard John A. Paulson School of Engineering and Applied Sciences](https://seas.harvard.edu/), working with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) on trustworthy NLP. :sparkles: :smile:

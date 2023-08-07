@@ -2,24 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle:
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: me.png
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: <p align="left"><font size="2">Cambridge, MA, USA 02138<br>Graduate School of Arts and Sciences, Harvard University</font></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
----
+--- 
+I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
+<!-- , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> . -->
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
+	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , working with Prof.
+	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
+Also, I am a research assistant of 
+	AI4LIFE Group at 
+	Harvard SEAS, working with Prof. 
+	[Hima Lakkaraju](https://himalakkaraju.github.io/). 
+	
+I obtained my Bachelor's degree in Computer Science from 
+	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
+	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px"> . During my undergraduate studies, I was fortunate to be supervised by Prof. 
+	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
+	Center for Information and Language Processing, LMU.
+<!-- 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU. -->
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `social-aware and trustworthy NLP`; ii) `NLP for computational social science`; and iii) `LLM-powered agents & agent simulations`.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

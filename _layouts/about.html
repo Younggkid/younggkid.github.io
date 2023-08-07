@@ -42,25 +42,76 @@ layout: default
 
           {% if page.news -%}
           <!-- News -->
+          <br>
           {%- include news.html %}
           {%- endif %}
+              
+              
+              
+              
+          <div style="margin-top: -100px;">
+            <p></p>
+          </div>    
+              
+           
+<!--           <div class="logo">
+          
+           <p> <center>
+                  <a href="https://www.harvard.edu/" target="_blank">
+                        <img src="./assets/img/h.png" height="90px" style="margin-right:18px">
+                  </a>
+                  <a href="https://www.mit.edu/" target="_blank">
+                        <img src="./assets/img/MIT.png" height="85px" style="margin-right:18px">
+                  </a>
+                  <a href="https://www.stanford.edu/" target="_blank">
+                        <img src="./assets/img/S.png" height="90px" style="margin-right:18px">
+                  </a>
+                  <a href="https://www.lmu.de/en/" target="_blank">
+                        <img src="./assets/img/LMU.jpeg" height="90px" style="margin-right:18px">
+                  </a>
+                  <a href="https://www.tum.de/en/" target="_blank">
+                        <img src="./assets/img/TUM.png" height="85px" style="margin-right:18px">
+                  </a>
+                  <a href="https://www.tsinghua.edu.cn/en/" target="_blank">
+                        <img src="./assets/img/tsinghua.png" height="90px">
+                  </a>
+                 <a href="https://ir.baidu.com/" target="_blank">
+                        <img src="./assets/img/baidu.png" height="90px">
+                  </a>
+           </center> </p>
+          </div> -->
+              
+              
+              
+              
+              
+              
+              
+          
           {% if page.selected_papers -%}
             <!-- Selected papers -->
+            <br><br><br>
             {%- include selected_papers.html %}
           {%- endif %}
+           
+        <br><br>
+        <center> <a href="https://www.revolvermaps.com/livestats/5rgtpvc7y8h/"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/199/35/5rgtpvc7y8h.png" width="350" height="175" alt="Map" style="border:0;"></a> </center>
+        <br><br>
+              
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
             <div class="contact-icons">
             {% include social.html %}
-            </div>
-
+            </div>  
+                
             <div class="contact-note">
-              {{ site.contact_note }}
+            {{ site.contact_note }}
             </div>
-            
+                
           </div>
-          {%- endif %}
+          {%- endif %}              
+              
         </article>
 
 </div>
