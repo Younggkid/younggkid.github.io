@@ -5,12 +5,12 @@ permalink: /
 subtitle:
 profile:
   align: left
-  image: 
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: <p align="left"><font size="2">Shanghai , China 02138<br>SEIEE in Shanghai Jiao Tong University</font></p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+publications: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
 I am a Senior Undergraduate student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) .
