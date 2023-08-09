@@ -20,9 +20,3 @@ Hi! I am a Senior Undergraduate student at [Shanghai Jiao Tong University](https
 
 
 My research interest lies in **System security**, with a particular focus on:  i) `Trust Execution Environment(TEE)`; ii) ` Memory-Safe Programming Language(Rust)`; and iii) `Cryptography and Blockchains`.
-<!--
-* Trust Execution Environment(TEE) : I am focusing on the security, efficiency of TEE design. Specifically, I am researching on side channel defences now.
-* Memory-Safe PL(Rust) : I am a Beginner Rustacean. I love developing system software using Rust as well as finding unsafe-related bugs.
-* Crypto : I am a rookie in cryptography and blockchains.
-
--->
