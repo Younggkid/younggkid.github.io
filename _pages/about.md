@@ -19,4 +19,4 @@ Hi! I am a Senior Undergraduate student at [Shanghai Jiao Tong University](https
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [NSEC lab](https://nsec.sjtu.edu.cn/), working with Prof.[Guoxing Chen](https://donnod.github.io/).
 
 
-My research interest lies in **System security**, with a particular focus on:  i) `Trust Execution Environment(TEE)`; ii) ` Memory-Safe Programming Language(Rust)`; and iii) `Cryptography and Blockchains`.
+My research interest lies in **System security**, with a particular focus on:  i) `Trust Execution Environment(TEE)`; ii) `Memory-Safe Programming Language(Rust)`; and iii) `Cryptography and Blockchains`.
