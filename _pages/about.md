@@ -7,7 +7,7 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: <p align="left"><font size="2">Shanghai , China <br>SEIEE in Shanghai Jiao Tong University</font></p>
+  address: <p align="left"><font size="2">Shanghai , China 02138<br>SEIEE in Shanghai Jiao Tong University</font></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
