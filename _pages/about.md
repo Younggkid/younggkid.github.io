@@ -18,5 +18,7 @@ Hi! I am Chenyang Liu, a Senior Undergraduate student at [Shanghai Jiao Tong Uni
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [NSEC lab](https://nsec.sjtu.edu.cn/), working with Prof.[Guoxing Chen](https://donnod.github.io/).
 
+I am going to apply for MS/Phd program in 2024 Fall.
+
 
 My research interest lies in **System Security**, with a particular focus on:  i) `Trust Execution Environment(TEE)`; ii) `Memory-Safe Programming Language(Rust)`; and iii) `Cryptography and Blockchain`.
