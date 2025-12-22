@@ -3,7 +3,7 @@
     url: https://donnod.github.io
 
 "lentz":
-  - firstname: ["Matthew Lentz", "Matt"]
+  - firstname: ["Matthew Lentz", "Matthew"]
     url: https://users.cs.duke.edu/~mlentz/
 
 "nayak":
@@ -21,6 +21,10 @@
 "zhu":
   - firstname: ["Haojin Zhu", "Haojin"]
     url: https://nsec.sjtu.edu.cn/~hjzhu/
+
+"abraham":
+  - firstname: ["Ittai Abraham", "Ittai"]
+    url: https://decentralizedthoughts.github.io/about-ittai/
 
 "zhang":
   - firstname: ["Yuanyuan Zhang", "Yuanyuan"]
