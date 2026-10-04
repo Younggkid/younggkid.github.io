@@ -29,6 +29,14 @@
   type="text/css"
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
+{% if page.chinese_name %}
+  <!-- Kai-style fallback for devices without a system Kaiti font; subset to just the name's characters -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&text={{ page.chinese_name | url_encode }}&display=swap"
+  >
+{% endif %}
 
 <!-- Code Syntax Highlighting -->
 <link

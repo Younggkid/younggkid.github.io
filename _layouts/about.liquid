@@ -10,6 +10,9 @@ layout: default
       {% else %}
         {{ site.title }}
       {% endif %}
+      {% if page.chinese_name %}
+        <span class="chinese-name" lang="zh-CN">{{ page.chinese_name }}</span>
+      {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
@@ -25,13 +28,29 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.22}}px, (min-width: 576px)
+      22vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
         {% endif %}
+        <div class="profile-links">
+          {% if site.email %}
+            <a href="mailto:{{ site.email | encode_email }}" title="email">Email</a>
+          {% endif %}
+          {% if page.profile.cv_pdf %}
+            {% if page.profile.cv_pdf contains '://' %}
+              {% assign cv_url = page.profile.cv_pdf %}
+            {% else %}
+              {% assign cv_url = page.profile.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+            {% endif %}
+            <a href="{{ cv_url }}" title="CV" target="_blank" rel="noopener">CV</a>
+          {% endif %}
+          {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" title="GitHub">GitHub</a>
+          {% endif %}
+        </div>
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
