@@ -1,0 +1,6 @@
+# Local-dev override, auto-merged by `docker compose up`.
+# The prebuilt image's gems lag slightly behind Gemfile.lock (e.g. rexml),
+# so install any missing gems before starting Jekyll.
+services:
+  jekyll:
+    command: bash -c "bundle install --quiet && /tmp/entry_point.sh"
